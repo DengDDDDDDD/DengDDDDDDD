@@ -1,0 +1,11 @@
+{
+  "name": "DengDDDDDDD profile README",
+  "install": "python3 -m pip install --user --break-system-packages --upgrade grip",
+  "terminals": [
+    {
+      "name": "readme-preview",
+      "command": "python3 -m grip README.md 0.0.0.0:6419 --wide"
+    }
+  ],
+  "ports": [6419]
+}
